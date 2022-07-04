@@ -1,0 +1,38 @@
+body {
+	font-size: 14px;
+	box-sizing: border-box;
+}
+h1 {
+	font-style: italic;
+	font-size: 40px;
+	color: indigo;
+	text-align: center;
+}
+p {
+	text-align: center;
+}
+button {
+	width: 100px;
+	height: 40px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
+	background-color: rgb(94, 38, 38);
+	border: none;
+	color: ivory;
+}
+img {
+	width: 300px;
+	padding-top: 30px;
+	display: block;
+	margin: 0 auto;
+}
+.box {
+	background-color: rgb(210, 185, 185);
+	width: 400px;
+	height: 350px;
+	overflow: scroll;
+	margin: 0 auto;
+	margin-top: 50px;
+	padding: 10px;
+}
