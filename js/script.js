@@ -273,13 +273,39 @@
 // trip.print();
 
 //=========== elementy =========
-const squares = document.querySelectorAll('.square');
+// const squares = document.querySelectorAll('.square');
 
-squares.forEach(item => {
-	console.log(item);
-})
+// squares.forEach(item => {
+// 	console.log(item);
+// })
 
 
-const oneSquare = document.querySelector('#square');
-console.log(oneSquare);
+// const oneSquare = document.querySelector('#square');
+// console.log(oneSquare);
 
+let obj1 = {
+	name: 'Alon4ik',
+	info: {
+		skills: ['html', 'css'],
+	}
+};
+let obj2 = {
+	name: 'Max',
+	age: 46,
+}
+// ====dlinnaja zapicj=====
+// let newObj = Object.assign({}, obj2, obj1);
+// newObj = Object.assign({}, obj1);
+// let objJson = JSON.stringify(obj1);
+// newObj = JSON.parse(objJson);
+// console.log(newObj.info === obj1.info);
+
+// ====korotkaja zapisj=====
+let newObj = Object.assign({}, obj2, obj1);
+newObj = Object.assign({}, obj1);
+newObj = JSON.parse(JSON.stringify(obj1));
+//console.log(newObj.info === obj1.info);
+
+let keys = Object.keys(obj2);
+console.log(keys);
+let values 
